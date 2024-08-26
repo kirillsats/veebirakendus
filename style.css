@@ -1,0 +1,45 @@
+header, footer{
+	color: cyan; /*teksti värv*/
+	background-color: black; /*tausta värv, задний фон*/
+	width: 66%; /*Laius, ширина*/
+	text-align: center;
+	border: double 6pt cyan; /*piir - solid, dashed, dotted, double*/
+	border-radius: 90px 60px 90px 60px;
+	padding: 1%;
+}
+main section {
+	background-color: cyan;
+	border:solid 5pt black;
+	margin:5px;
+	width: 45%
+}
+main section h2{
+	color: red;
+	font-variant: small-caps; /*normal*/
+	
+}
+nav ul {
+  list-style-type: none; /*markerid, маркеры списка*/
+  margin: 8px;
+  padding: 0;
+  overflow: hidden; /*kuidas näidata nac elemendid*/
+  background-color: black;
+  width: 68%;
+ 
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block; /*зафиксироватьвсе в один блок/ühe realne navbar*/
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; /*underline, подчеркивание*/
+}
+
+nav li a:hover { /*link fookuses*/
+  background-color: cyan;
+}
